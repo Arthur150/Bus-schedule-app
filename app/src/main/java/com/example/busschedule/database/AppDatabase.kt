@@ -22,7 +22,7 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "app_database"
                 )
-                    .createFromAsset("database/buse_schedule.db")
+                    .createFromAsset("database/bus_schedule.db")
                     .build()
                 INSTANCE = instance
 
